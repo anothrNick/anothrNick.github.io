@@ -10,13 +10,7 @@ body{
 	background: url('images/ticks.png');
 }
 
-.sepBar{
-	height:1px;
-	width: 100%;
-	background: #CCC;
-	border-bottom: 1px solid #ECECEC;
-}
-
+/*main wrappers*/
 #wrap {
     height: 100%;
     width: 100%;
@@ -29,20 +23,12 @@ body{
 	width: 70%;
 	margin: auto;
 }
-
-#banner {
-    margin: -40px 0 0 0;
-    padding: 0 10px 10px 10px;
-    overflow: auto;
-    height: 180px;
-    z-index: 1;
-    position: absolute;
-    left: 0;
-}
 #titlebar {
     height: 130px;
     position: relative;
 }
+
+/*title e.g. 'another web workshop'*/
 #mainTitle{
     position: absolute;
     left: 20px;
@@ -53,6 +39,7 @@ body{
 	line-height: 35px;
 }
 
+/*navigation*/
 #nav {
     padding: 0;
     overflow: auto;
@@ -81,6 +68,7 @@ body{
 	text-decoration: none;
 	color: #000;
 }
+/*underline for navigation*/
 #underLine{
 	height: 6px;
 	width: 45px;
@@ -92,6 +80,7 @@ body{
 				/*132 for second*/
 }
 
+/*decorative banner on left*/
 #leftBanner{
 	height: 100%;
 	width: 75px;
@@ -116,26 +105,33 @@ body{
 	border-right: 1px dashed #444;
 }
 
+/*MISC*/
 .hide{
 	display: none;
 }
+.sepBar{
+	height:1px;
+	width: 100%;
+	background: #CCC;
+	border-bottom: 1px solid #ECECEC;
+}
 
+/*Main content area*/
 .content{
 	margin: 5px 0;
 	position: relative;
 	height: 100%;
 	padding: 0;
 }
-
 .content div{
 	box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;
 	padding: 1px;
 }
-
 .content .eachContent{
 	background-color: rgba(0,0,0,.1);
 }
 
+/*different size pieces of content area*/
 .fullByfull{
 	float: left;
 	height: 100%;
@@ -151,13 +147,26 @@ body{
 	height: 50%;
 	width: 25%;
 }
+.qbyq{
+	float:left;
+	height: 25%;
+	width: 12.5%;
+}
+
 /*half by half with slant border*/
 .hByhWithSlant{
 	
 }
+
+/*different pages*/
 .eachContent{
 	height: 100%;
 	width: 100%;
+	overflow: hidden;
+}
+.eachContent img{
+	width: 100%;
+	height: 100%;
 }
 
 
