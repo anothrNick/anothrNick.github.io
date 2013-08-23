@@ -10,29 +10,41 @@
 	
 	<body>
 		<div id="wrap">
+			<div id="leftBanner"></div>
+			<div id="leftBannerOverlay"></div>
+			<div id="leftBannerOverlay2"></div>
 			<div id="page">
 				<div id="titlebar">
-					<div id="startBar"></div>
-					<div id="sepTopBar"></div>
-					<div id="banner">
-						<ul>
-							<li class="ribbon"></li>
-						</ul>
-					</div>
 					<div id="mainTitle">
 						another<br/>
 						web workshop
 					</div>
 					<div id="nav">
 						<ul><!--commit-->
-							<li>home</li>
-							<li>projects</li>
+							<li><a href="javascript:void(0)" id="nav1" onclick="switchNav(this)">home</a></li>	
+							<li><a href="javascript:void(0)" id="nav2" onclick="switchNav(this)">projects</a></li>
 						</ul>
+						<div id="underLine"></div>
 					</div>
 				</div>
-				<div id="content">
-					
+				<div class="sepBar"></div>
 				
+				<div class="content" id="home">
+		
+					<div class="fullByhalf"><div class="eachContent"></div></div>
+					<div class="fullByhalf"><div class="eachContent"></div></div>
+					<div class="fullByhalf"><div class="eachContent"></div></div>
+					<div class="halfByhalf"><div class="eachContent"></div></div>
+					<div class="halfByhalf"><div class="eachContent"></div></div>
+		
+				</div>
+				<div class="content hide" id="projects">
+		
+					<div class="fullByfull"><div class="eachContent"></div></div>
+					<div class="fullByhalf"><div class="eachContent"></div></div>
+					<div class="halfByhalf"><div class="eachContent"></div></div>
+					<div class="halfByhalf"><div class="eachContent"></div></div>
+		
 				</div>
 			</div>
 		</div>
