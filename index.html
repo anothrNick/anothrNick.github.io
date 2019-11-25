@@ -12,9 +12,7 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script src="https://use.fontawesome.com/dd72528c14.js"></script>
-        <!--<link rel="stylesheet" href="css/main.css"> -->
-        <!-- Latest compiled and minified CSS -->
+		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<style>
 			* {
@@ -42,9 +40,12 @@
 				display: flex;
 				flex-direction: column;
 			  	color: #555;
+
+				z-index: 1000;
+    			background-color: rgba(255,255,255,.8);
 			}
 
-			main .content i.fa {
+			main .content a {
 				border-radius: 200px;
 				margin-right: 20px;
 				font-size: 30px;
@@ -65,8 +66,8 @@
 				/*background-color: #007bb5;*/
 			}
 
-			.fa-twitter{
-				color: #55acee;
+			.fa-medium{
+				color: #000;
 				/*background-color: #007bb5;*/
 			}
 
@@ -102,7 +103,7 @@
 				border-color: rgba(0,0,0,.2);
 			}
 
-			.project .fa {
+			.project .fab, .project .fas {
 				color: #FFF;
 				position: absolute;
 				bottom: 2px;
@@ -128,13 +129,15 @@
 		     <p style="text-align: center;color: AAA;">Software Developer, Rock Climber, Dad, Human.</p>
 		     <p class="title">
 		     	<a href="mailto:nick@sjostrom.io"><i class="fa fa-envelope"></i></a>
-		     	<a href="https://github.com/anothrNick"><i class="fa fa-github"></i></a>
-		     	<a href="https://www.linkedin.com/in/nicksjostrom"><i class="fa fa-linkedin"></i></a>
-		     	<a href="https://twitter.com/nickShosh"><i class="fa fa-twitter"></i></a>
+		     	<a href="https://github.com/anothrNick"><i class="fab fa-github"></i></a>
+		     	<a href="https://www.linkedin.com/in/nicksjostrom"><i class="fab fa-linkedin"></i></a>
+		     	<a href="https://medium.com/@nick.sjostrom12"><i class="fab fa-medium"></i></a>
 		    </p>
 		  </div>
 		  
+		  <!-- <i style="position: absolute;bottom: -20px;left: 0;font-size: 20em;" class="fa fa-mountain"></i> -->
 		</main>
 
-    </body>
+		<script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" integrity="sha384-b3ua1l97aVGAPEIe48b4TC60WUQbQaGi2jqAWM90y0OZXZeyaTCWtBTKtjW2GXG1" crossorigin="anonymous"></script>
+	</body>
 </html>
